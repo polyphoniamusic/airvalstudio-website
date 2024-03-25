@@ -65,7 +65,7 @@ table {
   --card-hover: grayscale(0) brightness(0.3);
 
   --container-max-width: 1750px;
-  --container-padding: 2rem;
+  --container-padding: 3rem;
   --section-padding: 6rem;
 
   --auto-grid-min-size: 26rem;
