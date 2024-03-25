@@ -829,6 +829,7 @@ footer {
   align-content: space-between;
   background: var(--color-primary);
   color: var(--color-background) !important;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .footer-block {
@@ -1044,7 +1045,7 @@ footer {
     width: 100%;
   }
   .footer-block-column a {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
   .footer-block-legal {
     flex-direction: column-reverse;
