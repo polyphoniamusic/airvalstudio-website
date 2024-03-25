@@ -58,7 +58,7 @@ table {
   --color-gradient-black: linear-gradient(to bottom, black 0%, #000000c9 25%, #00000024 65%, transparent 100%);
   --color-transparent-background: #ffffff0f;
   --color-transparent-background-hover: #ffffff26;
-  --color-transparent-black: #000000b0;
+  --color-transparent-black: #00000080;
 
   --opacity-hover: 0.7;
   --opacity-disabled: 0.4;
@@ -116,8 +116,7 @@ body, .App {
   /*filter: sepia(0.2);*/
   position: relative;
   z-index: 0;
-  font-family: "EB Garamond", serif;
-  font-family: 'Space Grotesk', sans-serif;
+  /*font-family: "EB Garamond", serif;*/
   font-optical-sizing: auto;
 }
 
@@ -152,6 +151,7 @@ iframe {
   display: flex;
   flex-direction: column;
   gap: 5rem;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 /* BACKGROUND */
@@ -883,10 +883,47 @@ header {
 
 /* BREAKPOINTS */
 @media screen and (max-width: 870px) {
+  .overlay-noise {
+    background-size: 300px;
+  }
+
+
+  .header-logo {
+    width: 10rem;
+  }
+
+
+  .section-title {
+    font-size: 2.5rem;
+  }
+  .section-title::after {
+    margin-top: 2.25rem;
+  }
+
+
   .roll-swiper-shadow-left,
   .roll-swiper-shadow-right {
-    opacity: 0.8;
+    display: none;
   }
+
+
+  .services-block {
+    display: flex;
+    flex-direction: column;
+  }
+  .services-block-item {
+    min-width: 100%;
+  }
+
+
+  .materiel-block {
+    display: flex;
+    flex-direction: column;
+  }
+  .materiel-block-item {
+    min-width: 100%;
+  }
+  
 }
 
 @media screen and (max-width: 600px) {
