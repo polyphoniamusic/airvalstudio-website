@@ -1,6 +1,7 @@
 // Importing Dependencies //
 import React from "react";
 import Image from 'next/image';
+import Link from "next/link";
 
 // Importing Socials Icons SRC
 import InstagramIcon from '../../content/images/icons/social-icons/instagram-icon.svg';
@@ -20,64 +21,47 @@ export function Footer() {
     <>
 
       {/* FOOTER PART */}
-      <footer >
+      <footer id="contact">
         <div className="container">
           <div className="container-block">
             {/* FOOTER ICONS PART */}
             <div className="footer-block">
 
-              {/* SOCIAL & MUSIC ICONS */}
-              <ul className="footer-icons-list">
-                <li>
-                  <a href="https://blurblur.link/instagram" target="_blank" rel="noreferrer">
-                    <Image alt="Instagram Logo" className="footer-social-icon" src={InstagramIcon}/>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://blurblur.link/x" target="_blank" rel="noreferrer">
-                    <Image alt="X Logo" className="footer-social-icon" src={XIcon}/>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://blurblur.link/tiktok" target="_blank" rel="noreferrer">
-                    <Image alt="TikTok Logo" className="footer-social-icon" src={TiktokIcon}/>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://blurblur.link/spotify" target="_blank" rel="noreferrer">
-                    <Image alt="Spotify Logo" className="footer-social-icon" src={SpotifyIcon}/>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://blurblur.link/tidal" target="_blank" rel="noreferrer">
-                    <Image alt="Tidal Logo" className="footer-social-icon" src={TidalIcon}/>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://blurblur.link/deezer" target="_blank" rel="noreferrer">
-                    <Image alt="Deezer Logo" className="footer-social-icon" src={DeezerIcon}/>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://blurblur.link/applemusic" target="_blank" rel="noreferrer">
-                    <Image alt="Apple Music Logo" className="footer-social-icon" src={AppleMusicIcon}/>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://blurblur.link/youtube" target="_blank" rel="noreferrer">
-                    <Image alt="Youtube Logo" className="footer-social-icon" src={YoutubeIcon}/>
-                  </a>
-                </li>
-            </ul>
+              {/*<div className="footer-block-column">
+                <Link to="realisations" className="footer-block-item-list">RÉALISATIONS</Link>
+                <Link to="services" className="footer-block-item-list">SERVICES</Link>
+                <Link to="materiel" className="footer-block-item-list">MATÉRIEL</Link>
+                <Link to="contact" className="footer-block-item-list">CONTACT</Link>
+              </div>*/}
 
+              <div className="footer-block-column">
+                <div className="">
+                  <Link href="https://maps.app.goo.gl/Rp8Jdm5u6cJLYaXi6" className="footer-block-item-list" target="_blank">
+                    AIRVAL STUDIO
+                    <span href="" className="footer-block-item-list">La Valocherie,</span>
+                    <span href="" className="footer-block-item-list">Rochefort-sur-Loire,</span>
+                    <span href="" className="footer-block-item-list">49190</span>
+                  </Link>
+                </div>
+                <div className="">
+                  <Link href="mailto:contact@airval-studio.com" className="footer-block-item-list">CONTACT@AIRVAL-STUDIO.COM</Link>
+                  <Link href="tel:+33676443188" className="footer-block-item-list">+33676443188</Link>
+                </div>
+              </div>
+
+              <div className="footer-block-column">
+                <div className="">
+                  <Link href="https://instagram.com/airvalstudio" className="footer-block-item-list" target="_blank">INSTAGRAM</Link>
+                  <Link href="https://linkedin.com/company/airvalstudio" className="footer-block-item-list" target="_blank">LINKEDIN</Link>
+                  <Link href="https://soundbetter.com/profiles/605936-tom-lecomte" className="footer-block-item-list" target="_blank">SOUNDBETTER</Link>
+                </div>
+              </div>
             </div>
 
             {/* FOOTER COPYRIGHT */}
-            <div className="footer-copyright">
-
-              {/* COPYROGHT LINE */}
-              <p className="footer-copyright">© 2024 Airval Studio, par POLYPHONIA MUSIC.</p>
-
+            <div className="footer-block footer-block-legal">
+              <span className="footer-copyright">© 2024 Airval Studio, par POLYPHONIA MUSIC.</span>
+              <span className="footer-cgv"><Link href="cgv">Légal & CGV</Link></span>
             </div>
           </div>
         </div>

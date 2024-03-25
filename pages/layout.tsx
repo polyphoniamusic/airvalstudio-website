@@ -1,5 +1,10 @@
 import React from 'react';
 
+// Importing main components
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Loader from "./components/Loader";
+
 export default function Layout({
   children,
 }: {
@@ -7,8 +12,15 @@ export default function Layout({
 }) {
   return (
     <div>
-      <div className="overlay-noise"></div>
+
+    {/* LOADER */}
+    <Loader/>
+
+    {/* HEADER */}
+    <Header/>
+      {/*<div className="overlay-noise"></div>*/}
       {children}
+    <Footer/>
     </div>
     );
   };

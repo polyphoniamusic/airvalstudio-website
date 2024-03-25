@@ -67,7 +67,7 @@ export function Matériel() {;
                         <li className="materiel-block-item-list">Audix D6</li>
                         <li className="materiel-block-item-list">Audix D4</li>
                         <li className="materiel-block-item-list">EV PL33 <span>(x2)</span></li>
-                        <li className="materiel-block-item-list">JTS Audio</li>
+                        <li className="materiel-block-item-list">JTS Audio NX7</li>
                       </ul>
                     </div>
                     <div className="materiel-block-item">

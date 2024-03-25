@@ -17,7 +17,7 @@ import CoverVondervalWholelottalove from '../../content/images/covers/vonderval-
 import CoverSvenLesscarabees from '../../content/images/covers/sven-lesscarabees-cover.webp';
 import CoverSvenSven from '../../content/images/covers/sven-sven-cover.webp';
 import CoverBlurblurBlackanxiety from '../../content/images/covers/blurblur-blackanxiety-cover.webp';
-import CoverMailowEp from '../../content/images/covers/mailow-ep-cover.webp';
+import CoverMailowLaNuit from '../../content/images/covers/mailow-lanuit-cover.webp';
 
 
 export function Réalisations() {;
@@ -51,7 +51,7 @@ export function Réalisations() {;
                     <div className="roll-swiper-shadow-left"></div>
                     <div className="roll-swiper-shadow-right"></div>
                     <SwiperSlide>
-                        <Link href="https://google.com" target="_blank">
+                        <Link href="https://youtu.be/jsWjvqx-Nxc?si=f7uJsd7yL4Bexksy" target="_blank">
                             <Image src={CoverSvenLesscarabees} alt="Cover Sven - Les Scarabées" />
                             <div>
                                 <h2>Sven</h2>
@@ -60,7 +60,7 @@ export function Réalisations() {;
                         </Link>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Link href="https://google.com" target="_blank">
+                        <Link href="https://open.spotify.com/album/421KWbFwDSlVZGvirZ01bQ" target="_blank">
                             <Image src={CoverVondervalRelentless} alt="Cover Von Der Val - Relentless" />
                             <div>
                                 <h2>Von Der Val</h2>
@@ -69,7 +69,7 @@ export function Réalisations() {;
                         </Link>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Link href="https://google.com" target="_blank">
+                        <Link href="https://open.spotify.com/album/2p7eLZOmcSGVOFaUX48fZi" target="_blank">
                             <Image src={CoverBlurblurBlackanxiety} alt="Cover blurblur - BLACK ANXIETY" />
                             <div>
                                 <h2>blurblur</h2>
@@ -78,7 +78,7 @@ export function Réalisations() {;
                         </Link>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Link href="https://google.com" target="_blank">
+                        <Link href="https://open.spotify.com/album/38UApMH3D9LIK4ApzPb7pb" target="_blank">
                             <Image src={CoverSvenSven}  alt="Cover Sven - Sven EP" />
                             <div>
                                 <h2>Sven</h2>
@@ -87,7 +87,7 @@ export function Réalisations() {;
                         </Link>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Link href="https://google.com" target="_blank">
+                        <Link href="https://open.spotify.com/album/7nNJREmYLBDmXUw5fJZUnV" target="_blank">
                             <Image src={CoverVondervalWholelottalove}  alt="Cover Von Der Val - Whole Lotta Love" />
                             <div>
                                 <h2>Von Der Val</h2>
@@ -96,11 +96,11 @@ export function Réalisations() {;
                         </Link>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Link href="https://google.com" target="_blank">
-                            <Image src={CoverMailowEp}  alt="Cover Mailow - EP" />
+                        <Link href="https://open.spotify.com/track/2m7z2u0770SxpkIpfEoMJZ" target="_blank">
+                            <Image src={CoverMailowLaNuit}  alt="Cover Mailow - La Nuit" />
                             <div>
                                 <h2>Mailow</h2>
-                                <h3>Track Title</h3>
+                                <h3>Le jour / Single</h3>
                             </div>
                         </Link>
                     </SwiperSlide>

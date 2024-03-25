@@ -24,7 +24,7 @@ export function Header() {
           <div className="container-block">
             {/* MENU */}
             <div className="header-menu-block">
-              <Link to="top" spy={true} smooth={true} offset={0} duration={300}>
+              <Link href="/" spy={true} smooth={true} offset={0} duration={300}>
                 <Image className="header-logo" alt="Airval Logo White" src={HomeLogo}/>
               </Link>
               {/* OPEN MENU BUTTON */}
