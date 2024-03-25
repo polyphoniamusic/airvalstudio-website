@@ -222,7 +222,6 @@ iframe {
   filter: brightness(1.05);
   transform: rotate(3deg);
   margin-top: 2rem;
-  filter: blur(0.25px);
 }
 
 .modal-text {
@@ -365,7 +364,6 @@ header {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  filter: blur(0.25px);
 }
 
 .header-menu-block {
