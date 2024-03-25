@@ -11,7 +11,7 @@ export function Home() {
         <div className="main">
             <Head>
                 <title>Airval Studio — CGV</title>
-                <meta name="description" content="This is blurblur's official website. blurblur is a french singer, songwriter and record producer renowned for his sensual and captivating voice. His music is a blend of pop, electronic, and R&B influences."></meta>
+                <meta name="description" content="Le airval studio est un studio d'enregistrement basé à Rochefort-sur-Loire."></meta>
                 <link rel="icon" href="/favicon.ico" />
                 <meta name="facebook-domain-verification" content="" />
             </Head>
