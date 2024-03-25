@@ -1,9 +1,9 @@
 import React from 'react';
 
 // Importing Google Fonts
-import {  Cormorant_Garamond  } from 'next/font/google';
+import {  Space_Grotesk  } from 'next/font/google';
 
-const cormorant = Cormorant_Garamond({
+const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-main',
@@ -16,7 +16,7 @@ export default function Layout({
   children: React.ReactNode;
 }) {
   return (
-    <div className={`${cormorant.variable}`}>
+    <div className={`${spaceGrotesk.className}`}>
       <div className="overlay-noise"></div>
       {children}
     </div>

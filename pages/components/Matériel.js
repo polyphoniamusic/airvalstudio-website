@@ -118,7 +118,6 @@ export function Matériel() {;
                         <li className="materiel-block-item-list">Arturia V Collection</li>
                         <li className="materiel-block-item-list">iZotope Ozone 9 (Full)</li>
                         <li className="materiel-block-item-list">Slate Digital (Suite)</li>
-                        <li className="materiel-block-item-list">UAD Heritage Edition</li>
                         <li className="materiel-block-item-list">Suite SSL</li>
                         <li className="materiel-block-item-list">Antares Autotune Realtime</li>
                         <li className="materiel-block-item-list">Fab Filter Pro Q3, L2, MB2, C2</li>
