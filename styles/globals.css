@@ -562,7 +562,7 @@ header {
   object-fit: cover;
   aspect-ratio: 1/1;
   box-shadow: 0px 0px 200px black;
-  filter: saturate(1.15);
+  /*filter: saturate(1.15) drop-shadow(0px 0px 200px black);*/
   color: var(--color-primary);
 }
 
@@ -674,7 +674,7 @@ header {
 .services-block-item {
   display: flex;
   flex-direction: column;
-  padding: var(--container-padding);
+  padding: calc(var(--container-padding)/1.5);
   box-sizing: border-box;
   width: calc((100% / 3) - (var(--container-padding)/1.5));
   transition: all .3s ease-in-out;

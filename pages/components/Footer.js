@@ -44,7 +44,7 @@ export function Footer() {
                   </Link>
                 </div>
                 <div className="">
-                  <Link href="mailto:contact@airval-studio.com" className="footer-block-item-list">CONTACT@AIRVAL-STUDIO.COM</Link>
+                  <Link href="mailto:contact@airvalstudio.com" className="footer-block-item-list">CONTACT@AIRVALSTUDIO.COM</Link>
                   <Link href="tel:+33676443188" className="footer-block-item-list">+33676443188</Link>
                 </div>
               </div>

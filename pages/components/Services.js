@@ -16,7 +16,7 @@ export function Services() {;
                 <div className="services-block">
                     <div className="services-block-item">
                         <h2 className="services-title">Enregistrement</h2>
-                        <p className="services-text">Profitez d'un cadre professionnel et de matériel haut de gamme pour donner vie à vos projets.</p>
+                        <p className="services-text">Profitez de matériel professionnel et haut de gamme pour donner vie à vos projets.</p>{/* Profitez d'un cadre professionnel et de matériel haut de gamme pour donner vie à vos projets. */}
                         <a className="services-pricing">À partir de 
                             <span>410€
                                 <span>HT
@@ -24,7 +24,7 @@ export function Services() {;
                                 </span>
                             </span>
                         </a>
-                        <a className="services-button" href="mailto:contact@airval-studio.com">Nous contacter</a>
+                        <a className="services-button" href="mailto:contact@airvalstudio.com">Nous contacter</a>
                     </div>
 
                     <div className="services-block-item">
@@ -35,7 +35,7 @@ export function Services() {;
                                 <span>HT</span>
                             </span>
                         </a>
-                        <a className="services-button"  href="mailto:contact@airval-studio.com">Nous contacter</a>
+                        <a className="services-button"  href="mailto:contact@airvalstudio.com">Nous contacter</a>
                     </div>
 
                     <div className="services-block-item">
@@ -46,7 +46,7 @@ export function Services() {;
                                 <span>HT</span>
                             </span>
                         </a>
-                        <a className="services-button"  href="mailto:contact@airval-studio.com">Nous contacter</a>
+                        <a className="services-button"  href="mailto:contact@airvalstudio.com">Nous contacter</a>
                     </div>
 
                     {/*<div className="services-block-item">
