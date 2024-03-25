@@ -7,7 +7,7 @@ export function Matériel() {;
     <section className="materiel" id="materiel">
         <div className="container">
             <div className="container-block">
-                <h1 className="section-title">Matériel</h1>
+                <h1 className="section-title">Notre matériel</h1>
                 <div className="materiel-block">
                     <div className="materiel-block-item">
                       <h2 className="materiel-block-item-category">Monitoring</h2>
@@ -115,6 +115,7 @@ export function Matériel() {;
                       <ul className="materiel-block-item-list-block">
                         <li className="materiel-block-item-list">UAD Heritage Edition</li>
                         <li className="materiel-block-item-list">NI Komplete Kontrol Ultimate</li>
+                        <li className="materiel-block-item-list">Kontakt 7, Diva, Serum, </li>
                         <li className="materiel-block-item-list">Arturia V Collection</li>
                         <li className="materiel-block-item-list">iZotope Ozone 9 (Full)</li>
                         <li className="materiel-block-item-list">Slate Digital (Suite)</li>
@@ -128,8 +129,7 @@ export function Matériel() {;
                         <li className="materiel-block-item-list">Waves DeEsser, Soundshifter, Doublers</li>
                         <li className="materiel-block-item-list">Melodyne Essential</li>
                         <li className="materiel-block-item-list">Softube Tape, Saturation Knob</li>
-                        <li className="materiel-block-item-list">Diva, Serum</li>
-                        <li className="materiel-block-item-list">And many more…</li>
+                        <li className="materiel-block-item-list">et bien plus…</li>
                       </ul>
                     </div>
                 </div>

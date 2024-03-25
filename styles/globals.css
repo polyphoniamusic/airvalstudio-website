@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Space+Grotesk:wght@300..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 /* ---------- CSS RESET ---------- */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -152,7 +151,7 @@ iframe {
   display: flex;
   flex-direction: column;
   gap: 5rem;
-  font-family: var(--font-main), 'Space Grotesk', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 /* BACKGROUND */
@@ -397,7 +396,7 @@ header {
 
 .hamburger-menu-line {
   height: 1.5px;
-  background: white;
+  background: var(--color-primary);
   width: 100%;
   transition: .2s ease-in-out;
   transform: rotate(0deg);
@@ -426,8 +425,8 @@ header {
   padding: var(--container-padding);
   box-sizing: border-box;
   background: linear-gradient(to right, transparent, black);
-  right: -350px; /* Déplacez le menu en dehors de l'écran à droite */
-  width: min-content;
+  right: -600px; /* Déplacez le menu en dehors de l'écran à droite */
+  width: 600px;
   height: 100%;
   transition: transform 0.3s ease; /* Ajoutez une transition à la propriété transform */
   /*backdrop-filter: blur(20px);
@@ -446,7 +445,7 @@ header {
 }
 
 .menu-block.show {
-  transform: translateX(-350px); /* Déplacez le menu vers la gauche pour le faire apparaître */
+  transform: translateX(-600px); /* Déplacez le menu vers la gauche pour le faire apparaître */
 }
 
 .menu-block nav {
@@ -492,7 +491,7 @@ header {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 60vh;
+  height: 100vh;
   margin: auto;
   gap: 3rem;
   box-sizing: border-box;
@@ -679,7 +678,6 @@ header {
   gap: 2.5rem;
   border-radius: 1rem;
   border: solid 1px transparent;
-  font-family: 'Space Grotesk';
 }
 
 .services-block-item:hover {
@@ -740,7 +738,7 @@ header {
 
 .services-button {
   background: var(--color-secondary);
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1rem;
   color: var(--color-background) !important;
   font-weight: bold;
   border-radius: 0.5rem;
@@ -784,6 +782,8 @@ header {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  color: var(--color-grey);
+  font-weight: 100;
 }
 
 .materiel-block-item-list {
@@ -907,6 +907,10 @@ header {
   }
 
 
+  .loader-logo {
+    width: 10rem;
+  }
+
 
   .header-logo {
     width: 9rem;
@@ -939,8 +943,8 @@ header {
     margin-top: 1.75rem;
   }
   .services-text {
-    font-size: 1rem;
-    line-height: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
   }
   .services-pricing {
     font-size: 1rem;
