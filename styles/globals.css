@@ -948,6 +948,13 @@ footer {
   font-size: 1rem;
   margin-bottom: 0;
   font-weight: 500;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.footer-block-legal div {
+  display: inline-flex;
+  gap: var(--container-padding);
 }
 
 .footer-copyright {
@@ -957,6 +964,10 @@ footer {
   color: var(--color-background);
 }
 
+.footer-block-legal a {
+  max-width: 150px;
+  width: 100%;
+}
 
 /* LEGAL */
 .legal {
@@ -1114,7 +1125,7 @@ footer {
   }
 
   .footer-block {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .footer-block-column {
     width: 100%;
@@ -1122,8 +1133,11 @@ footer {
   .footer-block-column a {
     font-size: 1.5rem;
   }
-  .footer-block-legal {
+  .footer-block-legal div {
     flex-direction: column-reverse;
+  }
+  .footer-block-legal a {
+    max-width: 100px;
   }
 }
 

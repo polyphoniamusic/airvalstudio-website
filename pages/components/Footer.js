@@ -61,9 +61,15 @@ export function Footer() {
 
             {/* FOOTER COPYRIGHT */}
             <div className="footer-block footer-block-legal">
-              <span className="footer-copyright">© 2024 Airval Studio, par POLYPHONIA MUSIC.</span>
-              <span className="footer-cgv"><Link href="cgv">Légal & CGV</Link></span>
+              <div>
+                <span className="footer-copyright">© 2024 Airval Studio, par POLYPHONIA MUSIC.</span>
+                <span className="footer-cgv"><Link href="cgv">Légal & CGV</Link></span>
+              </div>
+              <a href="https://soundbetter.com/profiles/605936-tom-lecomte" rel="noopener noreferrer" target="_blank" title="Tom Lecomte profile on SoundBetter" >
+                <img alt="Tom Lecomte, Mixing Engineer on SoundBetter" src="https://d2p6ecj15pyavq.cloudfront.net/assets/SoundBetterBadge-c84cb3e75c4267f5bee41f7f617a81d9.svg"/>
+              </a>
             </div>
+
           </div>
         </div>
       </footer>
