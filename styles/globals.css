@@ -350,7 +350,7 @@ iframe {
 header {
   width: 100%;
   top: 0;
-  z-index: 1;
+  z-index: 10;
   position: fixed;
   background: linear-gradient(to bottom, rgba(0,0,0, 0.5), transparent);
 }
@@ -418,6 +418,7 @@ header {
   position: fixed;
   top: 0;
   right: 0;
+  z-index: 11;
   background: var(--color-background);
   padding: var(--container-padding);
   box-sizing: border-box;
@@ -497,6 +498,10 @@ header {
   justify-content: end;
 }
 
+.hero-block div div {
+  max-width: 100% !important;
+}
+
 .hero-image {
   width: 100%;
   height: 100vh;
@@ -506,9 +511,70 @@ header {
 
 .hero-image-shadow {
   width: 100%;
-  height: 30%;
-  background: linear-gradient(to bottom, transparent 80%, black);
+  height: 100%;
+  background: linear-gradient(to bottom, transparent 50%, black);
   position: absolute;
+  z-index: 1;
+  bottom: 0;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding: var(--container-padding);
+  box-sizing: border-box;
+}
+
+.scroll-button {
+  width: 1.5rem;
+  height: 2.5rem;
+  border: solid 1px var(--color-primary);
+  border-radius: 5rem;
+  display: flex;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.scroll-button-circle {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: var(--color-primary);
+  border-radius: 5rem;
+  max-width: auto;
+  animation: scrollIcon 2s infinite;
+  transition: .3s ease-in-out;
+}
+
+@keyframes scrollIcon {
+  0% {
+    margin-top: 0;
+    opacity: 1;
+  }
+
+  100% {
+    margin-top: 1rem;
+    opacity: 0;
+  }
+}
+
+
+.swiper-button-prev {
+  left: var(--container-padding) !important;
+}
+
+.swiper-button-next {
+  right: var(--container-padding) !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--color-primary) !important;
+  z-index: 9 !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 1.75rem !important;
 }
 
 /* ROLL */

@@ -40,11 +40,6 @@ export function Réalisations() {;
                     modifier: 2.5,
                     }}
                     pagination={{ el: '.swiper-pagination', clickable: true }}
-                    navigation={{
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                    clickable: true,
-                    }}
                     modules={[EffectCoverflow, Pagination, Navigation]}
                     className="swiper_container"
                 >
