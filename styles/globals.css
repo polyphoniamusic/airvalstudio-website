@@ -856,6 +856,7 @@ footer {
   transition: .3s ease-in-out;
   cursor: pointer;
   flex-wrap: wrap;
+  word-wrap: anywhere;
 }
 
 .footer-cgv a {
