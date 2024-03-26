@@ -54,6 +54,7 @@ export function Footer() {
                   <Link href="https://instagram.com/airvalstudio" className="footer-block-item-list" target="_blank">INSTAGRAM</Link>
                   <Link href="https://linkedin.com/company/airvalstudio" className="footer-block-item-list" target="_blank">LINKEDIN</Link>
                   <Link href="https://soundbetter.com/profiles/605936-tom-lecomte" className="footer-block-item-list" target="_blank">SOUNDBETTER</Link>
+                  <Link href="https://polyphoniamusic.com" className="footer-block-item-list" target="_blank">POLYPHONIA</Link>
                 </div>
               </div>
             </div>
