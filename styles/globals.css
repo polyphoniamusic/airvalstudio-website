@@ -1124,7 +1124,7 @@ footer {
   .roll-swiper-shadow-right {
     width: 0%;
   }
-  .swiper {
+  .realisations div div div {
     overflow: unset !important;
     width: 100% !important;
   }
