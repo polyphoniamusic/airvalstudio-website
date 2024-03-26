@@ -547,6 +547,10 @@ header {
 
 @keyframes scrollIcon {
   0% {
+    opacity: 0;
+  }
+
+  10% {
     margin-top: 0;
     opacity: 1;
   }
