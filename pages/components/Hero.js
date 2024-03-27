@@ -28,19 +28,19 @@ export function Hero() {;
           loop={true}
           effect='fade'>
         <SwiperSlide>
-          <Image className="hero-image" alt="Photo Studio 1" src={HeroImage1} quality={100}/>
+          <Image className="hero-image" alt="Photo Studio 1" src={HeroImage1} quality={85}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image className="hero-image" alt="Photo Studio 2" src={HeroImage2} quality={100}/>
+          <Image className="hero-image" alt="Photo Studio 2" src={HeroImage2} quality={85}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image className="hero-image" alt="Photo Studio 3" src={HeroImage3} quality={100}/>
+          <Image className="hero-image" alt="Photo Studio 3" src={HeroImage3} quality={85}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image className="hero-image" alt="Photo Studio 4" src={HeroImage4} quality={100}/>
+          <Image className="hero-image" alt="Photo Studio 4" src={HeroImage4} quality={85}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image className="hero-image" alt="Photo Studio 5" src={HeroImage5} quality={100}/>
+          <Image className="hero-image" alt="Photo Studio 5" src={HeroImage5} quality={85}/>
         </SwiperSlide>
         <div className="hero-image-shadow">
           <Link to="realisations" spy={true} smooth={true} offset={0} duration={300}>
