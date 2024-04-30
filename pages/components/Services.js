@@ -18,7 +18,7 @@ export function Services() {;
                         <h2 className="services-title">Enregistrement</h2>
                         <p className="services-text">Profitez de matériel professionnel et haut de gamme pour donner vie à vos projets.</p>{/* Profitez d'un cadre professionnel et de matériel haut de gamme pour donner vie à vos projets. */}
                         <a className="services-pricing">À partir de 
-                            <span>410€
+                            <span>210€
                                 <span>HT
                                     <span>JOUR</span>
                                 </span>
@@ -42,7 +42,7 @@ export function Services() {;
                         <h2 className="services-title">Mixage</h2>
                         <p className="services-text">Au studio, ou à distance, nous réalisons et mixons vos projets avec expertise.</p>
                         <a className="services-pricing">À partir de 
-                            <span>285€
+                            <span>185€
                                 <span>HT</span>
                             </span>
                         </a>
