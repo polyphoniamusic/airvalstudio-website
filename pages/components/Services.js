@@ -12,14 +12,14 @@ export function Services() {;
     <section className="services" id="services">
         <div className="container">
             <div className="container-block">
-                <h1 className="section-title">Situé en pleine nature,<br/>profitez d'un cadre idyllique pour vos sessions</h1>
+                <h1 className="section-title">Situé en pleine nature aux abords de la ville d'Angers, profitez d'un cadre idyllique pour vos sessions</h1>
                 <div className="services-block">
                     <div className="services-block-item">
                         <h2 className="services-title">Enregistrement</h2>
                         <p className="services-text">Profitez de matériel professionnel et haut de gamme pour donner vie à vos projets.</p>{/* Profitez d'un cadre professionnel et de matériel haut de gamme pour donner vie à vos projets. */}
                         <a className="services-pricing">À partir de 
-                            <span>210€
-                                <span>HT
+                            <span>350€
+                                <span>TTC
                                     <span>JOUR</span>
                                 </span>
                             </span>
@@ -31,8 +31,10 @@ export function Services() {;
                         <h2 className="services-title">Édition</h2>
                         <p className="services-text">Nous corrigeons et préparons vos projets pour qu'ils soient "prêts à être mixés".</p>
                         <a className="services-pricing">À partir de 
-                            <span>75€
-                                <span>HT</span>
+                            <span>50€
+                                <span>TTC
+                                    <span>HEURE</span>
+                                </span>
                             </span>
                         </a>
                         <a className="services-button"  href="mailto:contact@airvalstudio.com">Nous contacter</a>
@@ -42,8 +44,10 @@ export function Services() {;
                         <h2 className="services-title">Mixage</h2>
                         <p className="services-text">Au studio, ou à distance, nous réalisons et mixons vos projets avec expertise.</p>
                         <a className="services-pricing">À partir de 
-                            <span>185€
-                                <span>HT</span>
+                            <span>50€
+                                <span>TTC
+                                    <span>HEURE</span>
+                                </span>
                             </span>
                         </a>
                         <a className="services-button"  href="mailto:contact@airvalstudio.com">Nous contacter</a>

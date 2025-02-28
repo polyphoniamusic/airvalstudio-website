@@ -14,8 +14,8 @@ export function Home() {
   return (
         <div className="main">
             <Head>
-                <title>Airval Studio — Studio d'enregistrement</title>
-                <meta name="description" content="Le airval studio est un studio d'enregistrement basé à Rochefort-sur-Loire."></meta>
+                <title>Airval Studio — Studio d'enregistrement à côté d'Angers</title>
+                <meta name="description" content="Le airval studio est un studio d'enregistrement basé à Rochefort-sur-Loire, à côté d'Angers dans le maine et loire."></meta>
                 <link rel="icon" href="/favicon.ico" />
                 <meta name="facebook-domain-verification" content="" />
             </Head>
