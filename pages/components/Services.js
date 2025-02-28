@@ -28,8 +28,8 @@ export function Services() {;
                     </div>
 
                     <div className="services-block-item">
-                        <h2 className="services-title">Édition</h2>
-                        <p className="services-text">Nous corrigeons et préparons vos projets pour qu'ils soient "prêts à être mixés".</p>
+                        <h2 className="services-title">Édition & Mixage</h2>
+                        <p className="services-text">Nous corrigeons et préparons vos projets pour qu'ils soient "prêts à être masterisé".</p>
                         <a className="services-pricing">À partir de 
                             <span>50€
                                 <span>TTC
@@ -41,12 +41,12 @@ export function Services() {;
                     </div>
 
                     <div className="services-block-item">
-                        <h2 className="services-title">Mixage</h2>
-                        <p className="services-text">Au studio, ou à distance, nous réalisons et mixons vos projets avec expertise.</p>
+                        <h2 className="services-title">Live session</h2>
+                        <p className="services-text">Bénéficiez d'un enregistrement sonore et d'une captation vidéo pour vos prestations live.</p>
                         <a className="services-pricing">À partir de 
-                            <span>50€
+                            <span>500€
                                 <span>TTC
-                                    <span>HEURE</span>
+                                    <span>JOUR</span>
                                 </span>
                             </span>
                         </a>
