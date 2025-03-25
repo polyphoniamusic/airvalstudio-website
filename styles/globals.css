@@ -613,6 +613,7 @@ header {
 .swiper {
   /*overflow: unset !important;*/
   z-index: unset !important;
+  max-width: 100% !important;
 }
 
 .swiper-3d {
