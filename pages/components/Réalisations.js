@@ -64,15 +64,6 @@ export function Réalisations() {;
                         </Link>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Link href="https://open.spotify.com/album/2p7eLZOmcSGVOFaUX48fZi" target="_blank">
-                            <Image src={CoverBlurblurBlackanxiety} alt="Cover blurblur - BLACK ANXIETY" />
-                            <div>
-                                <h2>blurblur</h2>
-                                <h3>Black Anxiety / EP</h3>
-                            </div>
-                        </Link>
-                    </SwiperSlide>
-                    <SwiperSlide>
                         <Link href="https://open.spotify.com/album/38UApMH3D9LIK4ApzPb7pb" target="_blank">
                             <Image src={CoverSvenSven}  alt="Cover Sven - Sven EP" />
                             <div>
