@@ -39,6 +39,7 @@ export function Footer() {
                   <Link href="https://maps.app.goo.gl/Rp8Jdm5u6cJLYaXi6" className="footer-block-item-list" target="_blank">
                     AIRVAL STUDIO
                     <span href="" className="footer-block-item-list">La Valocherie,</span>
+                    <span href="" className="footer-block-item-list">Aslak</span>
                     <span href="" className="footer-block-item-list">Rochefort-sur-Loire,</span>
                     <span href="" className="footer-block-item-list">49190</span>
                   </Link>
@@ -66,14 +67,14 @@ export function Footer() {
                 <span className="footer-cgv"><Link href="cgv">Légal & CGV</Link></span>
               </div>
               <a href="https://soundbetter.com/profiles/605936-tom-lecomte" rel="noopener noreferrer" target="_blank" title="Tom Lecomte profile on SoundBetter" >
-                <img alt="Tom Lecomte, Mixing Engineer on SoundBetter" src="https://d2p6ecj15pyavq.cloudfront.net/assets/SoundBetterBadge-c84cb3e75c4267f5bee41f7f617a81d9.svg"/>
+                <img alt="Tom Lecomte, Mixing Engineer on SoundBetter" src="https://d2p6ecj15pyavq.cloudfront.net/assets/SoundBetterBadge-c84cb3e75c4267f5bee41f7f617a81d9.svg" />
               </a>
             </div>
 
           </div>
         </div>
       </footer>
-    
+
     </>
   );
 }
