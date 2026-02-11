@@ -39,7 +39,6 @@ export function Footer() {
                   <Link href="https://maps.app.goo.gl/Rp8Jdm5u6cJLYaXi6" className="footer-block-item-list" target="_blank">
                     AIRVAL STUDIO
                     <span href="" className="footer-block-item-list">La Valocherie,</span>
-                    <span href="" className="footer-block-item-list">Aslak</span>
                     <span href="" className="footer-block-item-list">Rochefort-sur-Loire,</span>
                     <span href="" className="footer-block-item-list">49190</span>
                   </Link>
