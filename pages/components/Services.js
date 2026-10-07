@@ -22,7 +22,7 @@ export function Services() {
                             <h2 className="services-title">Enregistrement</h2>
 
                             <p className="services-text">
-                                Choix des micros, prise de son et accompagnement technique et réalisation adaptés à votre projet.
+                                Choix des micros, prise de son et accompagnement technique adapté à votre projet.
                             </p>
 
                             <a className="services-pricing">
