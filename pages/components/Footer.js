@@ -53,8 +53,6 @@ export function Footer() {
                 <div className="">
                   <Link href="https://instagram.com/airvalstudio" className="footer-block-item-list" target="_blank">INSTAGRAM</Link>
                   <Link href="https://linkedin.com/company/airvalstudio" className="footer-block-item-list" target="_blank">LINKEDIN</Link>
-                  <Link href="https://soundbetter.com/profiles/605936-tom-lecomte" className="footer-block-item-list" target="_blank">SOUNDBETTER</Link>
-                  <Link href="https://polyphoniamusic.com" className="footer-block-item-list" target="_blank">POLYPHONIA</Link>
                 </div>
               </div>
             </div>
@@ -62,7 +60,7 @@ export function Footer() {
             {/* FOOTER COPYRIGHT */}
             <div className="footer-block footer-block-legal">
               <div>
-                <span className="footer-copyright">© 2025 Airval Studio, par POLYPHONIA MUSIC.</span>
+                <span className="footer-copyright">© {new Date().getFullYear()} Airval Studio, par POLYPHONIA MUSIC.</span>
                 <span className="footer-cgv"><Link href="cgv">Légal & CGV</Link></span>
               </div>
               <a href="https://soundbetter.com/profiles/605936-tom-lecomte" rel="noopener noreferrer" target="_blank" title="Tom Lecomte profile on SoundBetter" >
