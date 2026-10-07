@@ -25,6 +25,7 @@ export function Réalisations() {
 
     return (
         <section className="realisations" id="realisations">
+            <h1 className="section-title">Live Sessions</h1>
 
             <div className="videos-grid">
                 <div className="video-wrapper">

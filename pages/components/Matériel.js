@@ -36,7 +36,7 @@ export function Matériel() {
                 <li className="materiel-block-item-list">Warm Audio EQP-WA</li>
                 <li className="materiel-block-item-list">Warm Audio WA-76 comp</li>
                 <li className="materiel-block-item-list">DBX 160A</li>
-                <li className="materiel-block-item-list">Dl02 Hlabs</li>
+                <li className="materiel-block-item-list">Hlabs Dl02</li>
               </ul>
             </div>
             <div className="materiel-block-item">
@@ -123,7 +123,6 @@ export function Matériel() {
                 <li className="materiel-block-item-list">SSL full suite</li>
                 <li className="materiel-block-item-list">Komplete Kontrol Ultimate</li>
                 <li className="materiel-block-item-list">Antares Autotune Realtime</li>
-                <li className="materiel-block-item-list">AutoTune Realtime</li>
                 <li className="materiel-block-item-list">Melodyne Essential</li>
                 <li className="materiel-block-item-list">et bien plus…</li>
               </ul>
