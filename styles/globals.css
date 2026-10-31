@@ -1467,39 +1467,133 @@ footer {
 
 }
 
+/* ---------- SERVICES CTA ---------- */
+
 .services-quote-container {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  width: 100%;
+  margin-top: 20px;
   margin-bottom: 25px;
 }
 
 .services-quote {
   display: inline-flex;
+  justify-content: center;
   align-items: center;
-  gap: 25px;
-  padding: 14px 24px;
+  gap: 35px;
+
+  padding: 24px 55px;
 
   background-color: var(--color-secondary);
-  color: #000;
+  color: var(--color-background);
 
-  font-size: 15px;
-  font-weight: 600;
-  text-decoration: none;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
 
-  border-radius: 3px;
+  border-radius: 6px;
+  border: 1px solid var(--color-secondary);
+
+  box-shadow: 0 0 30px rgba(0, 255, 208, 0.12);
+
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .services-quote:hover {
-  background-color: #a3c994;
+  background-color: transparent;
+  color: var(--color-secondary);
+  box-shadow: 0 0 35px rgba(0, 255, 208, 0.25);
+  transform: translateY(-4px);
 }
 
 .services-quote span {
-  font-size: 21px;
+  font-size: 1.8rem;
   transition: transform 0.3s ease;
 }
 
 .services-quote:hover span {
-  transform: translateX(5px);
+  transform: translateX(8px);
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 600px) {
+  .services-quote-container {
+    margin-top: 10px;
+  }
+
+  .services-quote {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 22px 25px;
+    font-size: 1.05rem;
+    gap: 20px;
+  }
+}
+
+
+
+/* CONTACT INFORMATION */
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.contact-info-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact-info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.contact-info-label {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  color: #777;
+}
+
+.contact-info-item a {
+  color: var(--color-background);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-info-item a:hover {
+  color: var(--color-secondary-dark);
+}
+
+.contact-info-socials {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.contact-info-socials a {
+  color: var(--color-background);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-info-socials a:hover {
+  color: var(--color-secondary-dark);
 }

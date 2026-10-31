@@ -1,6 +1,7 @@
 
 "use client";
 
+import Link from "next/link";
 import { useState, FormEvent } from "react";
 
 export default function ContactForm() {
@@ -54,14 +55,54 @@ export default function ContactForm() {
 
     return (
         <section className="contact-form-section" id="contact">
-            <div className="contact-form-heading">
-                <span className="contact-form-eyebrow">AIRVAL STUDIO — CONTACT</span>
-                <h2>PARLONS DE VOTRE PROJET.</h2>
-                <p>
-                    Une question, un projet musical ou une demande de réservation ?
-                    Envoyez-nous un message.
-                </p>
+
+            <div className="contact-info">
+
+                <span className="contact-form-eyebrow">
+                    AIRVAL STUDIO — CONTACT
+                </span>
+
+                <div className="contact-info-details">
+
+                    <div className="contact-info-item">
+                        <span className="contact-info-label">ADRESSE</span>
+                        <Link
+                            href="https://maps.app.goo.gl/Rp8Jdm5u6cJLYaXi6"
+                            target="_blank"
+                        >
+                            La Valocherie<br />
+                            Rochefort-sur-Loire, 49190 ↗
+                        </Link>
+                    </div>
+
+                    <div className="contact-info-item">
+                        <span className="contact-info-label">EMAIL</span>
+                        <Link href="mailto:contact@airvalstudio.com">
+                            contact@airvalstudio.com
+                        </Link>
+                    </div>
+
+                    <div className="contact-info-item">
+                        <span className="contact-info-label">TÉLÉPHONE</span>
+                        <Link href="tel:+33614190507">
+                            +33 6 14 19 05 07
+                        </Link>
+                    </div>
+
+                </div>
+
+                <div className="contact-info-socials">
+                    <Link href="https://instagram.com/airvalstudio" target="_blank">
+                        INSTAGRAM ↗
+                    </Link>
+
+                    <Link href="https://linkedin.com/company/airvalstudio" target="_blank">
+                        LINKEDIN ↗
+                    </Link>
+                </div>
+
             </div>
+
 
             <form className="contact-form" onSubmit={handleSubmit}>
                 <div className="contact-form-row">
