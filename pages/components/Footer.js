@@ -2,6 +2,7 @@
 import React from "react";
 import Image from 'next/image';
 import Link from "next/link";
+import ContactForm from "./ContactForm";
 
 // Importing Socials Icons SRC
 import InstagramIcon from '../../content/images/icons/social-icons/instagram-icon.svg';
@@ -24,6 +25,10 @@ export function Footer() {
       <footer id="contact">
         <div className="container">
           <div className="container-block">
+
+            {/* CONTACT FORM */}
+            <ContactForm />
+
             {/* FOOTER ICONS PART */}
             <div className="footer-block">
 

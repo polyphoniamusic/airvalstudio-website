@@ -35,13 +35,6 @@ export function Services() {
                                     </span>
                                 </span>
                             </a>
-
-                            <a
-                                className="services-button"
-                                href="mailto:contact@airvalstudio.com"
-                            >
-                                Nous contacter
-                            </a>
                         </div>
 
 
@@ -61,13 +54,6 @@ export function Services() {
                                         <span>HEURE</span>
                                     </span>
                                 </span>
-                            </a>
-
-                            <a
-                                className="services-button"
-                                href="mailto:contact@airvalstudio.com"
-                            >
-                                Nous contacter
                             </a>
                         </div>
 
@@ -89,13 +75,6 @@ export function Services() {
                                     </span>
                                 </span>
                             </a>
-
-                            <a
-                                className="services-button"
-                                href="mailto:contact@airvalstudio.com"
-                            >
-                                Nous contacter
-                            </a>
                         </div>
 
 
@@ -116,15 +95,14 @@ export function Services() {
                                     </span>
                                 </span>
                             </a>
-
-                            <a
-                                className="services-button"
-                                href="mailto:contact@airvalstudio.com"
-                            >
-                                Nous contacter
-                            </a>
                         </div>
 
+                    </div>
+                    <div className="services-quote-container">
+                        <a href="#contact" className="services-quote">
+                            Demander un devis
+                            <span aria-hidden="true">→</span>
+                        </a>
                     </div>
                 </div>
             </div>
