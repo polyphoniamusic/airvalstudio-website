@@ -99,7 +99,18 @@ export function Services() {
 
                     </div>
                     <div className="services-quote-container">
-                        <a href="#contact" className="services-quote">
+                        <a
+                            href="#contact"
+                            className="services-quote"
+                            onClick={(e) => {
+                                e.preventDefault();
+
+                                document.getElementById("contact")?.scrollIntoView({
+                                    behavior: "smooth",
+                                    block: "start"
+                                });
+                            }}
+                        >
                             Demander un devis
                             <span aria-hidden="true">→</span>
                         </a>

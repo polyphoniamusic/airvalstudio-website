@@ -71,7 +71,7 @@ export default function ContactForm() {
                             target="_blank"
                         >
                             La Valocherie<br />
-                            Rochefort-sur-Loire, 49190 ↗
+                            49190, Rochefort-sur-Loire ↗
                         </Link>
                     </div>
 
